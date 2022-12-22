@@ -1,0 +1,22 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    margin-top: 20px;
+}
+.product_image{
+    max-height: 300px;
+    object-fit: contain;
+}
+.product_button{
+    background-color: blue;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.product_rating{
+    display: flex;
+    font-weight: 800;
+}

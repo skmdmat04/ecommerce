@@ -1,0 +1,38 @@
+.header{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header_logo{
+    width: 50px;
+    object-fit: contain;
+    margin: 5px 10px; 
+    border-radius: 10px;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+    margin: 10px 10px;
+}
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+.header_nav{
+    color: white;
+    display: flex;
+}
+.header_link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
